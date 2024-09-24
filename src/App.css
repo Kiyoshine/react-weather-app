@@ -1,0 +1,46 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+  background-color: #f0f8ff; /* Cor de fundo suave */
+}
+
+.titulo {
+  font-size: 2rem;
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.input-cidade {
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px; /* Espaço abaixo do input */
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Borda cinza clara */
+}
+
+.botao {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff; /* Azul padrão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.botao:hover {
+  background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+.erro {
+  color: red; /* Cor vermelha para mensagens de erro */
+}
+
+.resultado {
+  margin-top: 20px; /* Espaço acima dos resultados */
+  text-align: center; /* Centraliza o texto dos resultados */
+}
